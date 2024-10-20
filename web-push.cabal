@@ -21,21 +21,21 @@ library
   exposed-modules:     Web.WebPush
                        Web.WebPush.Internal
   ghc-options:        -Wall -fwarn-tabs -O2
-  build-depends:       base                          >= 4.7 && < 5
+  build-depends:       base                          
                      , aeson
                      , time
-                     , bytestring                    >= 0.9        && < 0.11
-                     , base64-bytestring             >= 1.0.0.1    && < 1.2
-                     , text                          >= 0.11       && < 2.0
-                     , cryptonite                    >= 0.24
-                     , binary                        >= 0.7.5      && < 0.9
-                     , memory                        >= 0.14.5     && < 0.16
-                     , random                        >= 1.1        && < 1.2
-                     , http-client                   >= 0.5.7      && < 0.7
-                     , http-types                    >= 0.8.6      && < 1.0
-                     , transformers                  >= 0.5.2.0    && < 0.6
-                     , lens                          >= 4.15.1
-                     , safe-exceptions               >= 0.1.7      && < 0.2
+                     , bytestring                    
+                     , base64-bytestring             
+                     , text                          
+                     , cryptonite                    
+                     , binary                        
+                     , memory                        
+                     , random                        
+                     , http-client                   
+                     , http-types                    
+                     , transformers                  
+                     , lens                          
+                     , safe-exceptions               
 
   default-language:    Haskell2010
 
@@ -47,10 +47,10 @@ test-suite web-push-test
   ghc-options:         -Wall
   build-depends:       base
                      , web-push
-                     , hspec                         >= 2.4.3      && < 2.8
-                     , bytestring                    >= 0.9        && < 0.11
-                     , base64-bytestring             >= 1.0.0.1    && < 1.1
-                     , binary                        >= 0.7.5      && < 0.9
+                     , hspec                         
+                     , bytestring                    
+                     , base64-bytestring             
+                     , binary                        
 
   default-language:    Haskell2010
 

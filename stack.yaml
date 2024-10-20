@@ -1,12 +1,11 @@
-resolver: lts-17.9
-
-docker:
-    enable: true
+resolver: lts-22.38
 
 packages:
 - '.'
 
-extra-deps: []
+extra-deps: [
+  base64-bytestring-1.0.0.3
+]
 
 flags: {}
 
